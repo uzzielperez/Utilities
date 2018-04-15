@@ -14,7 +14,7 @@ export LD_LIBRARY_PATH=$ROOTSYS/lib:$DYLD_LIBRARY_PATH
 #alias lsad="echo for i in `ls`; do printf "$i:" ; echo `ls $i`; done" 
 alias cern="ssh -XY ciperez@lxplus.cern.ch"
 alias cernscreen="ssh -t ciperez@lxplus.cern.ch screen"
-alias fnalk="kinit --password-file=/Users/up/psfnal.txt cuperez@FNAL.GOV"
+alias fnalk="kinit --password-file=<somesecretfile> cuperez@FNAL.GOV"
 alias fnal="ssh -Y cuperez@cmslpc-sl6.fnal.gov"
 alias fnalscreen="ssh -t cuperez@cmslpc-sl6.fnal.gov screen"
 alias fnalj="ssh -L localhost:2527:localhost:2527 cuperez@cmslpc-sl6.fnal.gov"
