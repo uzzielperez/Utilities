@@ -12,15 +12,15 @@ export LD_LIBRARY_PATH=$ROOTSYS/lib:$DYLD_LIBRARY_PATH
 # ALIASES
 ##########
 #alias lsad="echo for i in `ls`; do printf "$i:" ; echo `ls $i`; done" 
-alias cern="ssh -XY ciperez@lxplus.cern.ch"
-alias cernscreen="ssh -t ciperez@lxplus.cern.ch screen"
-alias fnalk="kinit --password-file=<somesecretfile> cuperez@FNAL.GOV"
-alias fnal="ssh -Y cuperez@cmslpc-sl6.fnal.gov"
-alias fnalscreen="ssh -t cuperez@cmslpc-sl6.fnal.gov screen"
-alias fnalj="ssh -L localhost:2527:localhost:2527 cuperez@cmslpc-sl6.fnal.gov"
-alias fnalgpu1='ssh -Y cuperez@cmslpcgpu1.fnal.gov'
-alias fnalgpu2='ssh -Y cuperez@cmslpcgpu2.fnal.gov'
-alias fnalgpu3='ssh -Y cuperez@cmslpcgpu2.fnal.gov'
+alias cern="ssh -XY username@lxplus.cern.ch"
+alias cernscreen="ssh -t username@lxplus.cern.ch screen"
+alias fnalk="kinit --password-file=<somesecretfile> username@FNAL.GOV"
+alias fnal="ssh -Y username@cmslpc-sl6.fnal.gov"
+alias fnalscreen="ssh -t username@cmslpc-sl6.fnal.gov screen"
+alias fnalj="ssh -L localhost:2527:localhost:2527 username@cmslpc-sl6.fnal.gov"
+alias fnalgpu1='ssh -Y username@cmslpcgpu1.fnal.gov'
+alias fnalgpu2='ssh -Y username@cmslpcgpu2.fnal.gov'
+alias fnalgpu3='ssh -Y username@cmslpcgpu2.fnal.gov'
 alias condapython='/Users/up/miniconda3/bin/python'
 
 
