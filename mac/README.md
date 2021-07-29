@@ -4,6 +4,13 @@ In case of lost passwords, it is pretty easy to call Fermilab service desk. They
 To reset password for kerberos: 
 https://fermi.servicenowservices.com/kb_view.do?sysparm_article=KB0010628
 
+```
+# Get kerberos configuration file from Fermilab Configuration files 
+wget https://authentication.fnal.gov/krb5conf/
+```
+You can find other useful information from here: 
+https://uscms.org/uscms_at_work/computing/getstarted/uaf.shtml#prerequisiteKerberosConfig
+
 # setting up git 
 
 For the new mac one can follow this to generate ssh keys: 
