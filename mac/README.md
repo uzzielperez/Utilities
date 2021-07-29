@@ -19,6 +19,10 @@ http://guides.beanstalkapp.com/version-control/git-on-mac.html
 Instructions for adding ssh keys to your github account: 
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
+# Setting up atom 
+
+Download atom from here: https://atom.io
+Install platform ide terminal: https://atom.io/packages/platformio-ide-terminal
 
 # Other useful things 
 Installing homebrew, wget: 
