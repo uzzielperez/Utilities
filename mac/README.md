@@ -13,3 +13,11 @@ Instructions for adding ssh keys to your github account:
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 
+# Other useful things 
+Installing homebrew, wget: 
+https://www.jcchouinard.com/wget/
+
+` echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/uzzielperez/.bash_profile
+    eval "$(/opt/homebrew/bin/brew shellenv)"` 
+    
+   
