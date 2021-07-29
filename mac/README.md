@@ -27,6 +27,11 @@ Install platform ide terminal: https://atom.io/packages/platformio-ide-terminal
 
 In the settings you can change platform ide terminal from zsh to bash. (I haven't figured out yet how to get it to source ~/.bash_profile and ~/.bashrc) 
 
+## Setting up Remote Atom 
+One of my favorite things in the world! 
+https://atom.io/packages/remote-atom
+
+
 # Other useful things 
 Installing homebrew, wget: 
 https://www.jcchouinard.com/wget/
