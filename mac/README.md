@@ -22,7 +22,10 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 # Setting up atom 
 
 Download atom from here: https://atom.io
+
 Install platform ide terminal: https://atom.io/packages/platformio-ide-terminal
+
+In the settings you can change platform ide terminal from zsh to bash. (I haven't figured out yet how to get it to source ~/.bash_profile and ~/.bashrc) 
 
 # Other useful things 
 Installing homebrew, wget: 
