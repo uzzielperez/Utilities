@@ -31,6 +31,9 @@ In the settings you can change platform ide terminal from zsh to bash. (I haven'
 One of my favorite things in the world! 
 https://atom.io/packages/remote-atom
 
+So you can open atom from the command line interface
+https://stackoverflow.com/questions/22390709/how-can-i-open-the-atom-editor-from-the-command-line-in-os-x
+
 
 # Other useful things 
 Installing homebrew, wget: 
