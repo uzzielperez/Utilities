@@ -34,6 +34,34 @@ https://atom.io/packages/remote-atom
 So you can open atom from the command line interface
 https://stackoverflow.com/questions/22390709/how-can-i-open-the-atom-editor-from-the-command-line-in-os-x
 
+# ROOT 
+
+To install ROOT ( I usually like the pyroot capabilities ).
+https://root.cern/install/
+https://root.cern/manual/python/
+
+```
+# Install ROOT first 
+brew install root
+. /opt/homebrew/bin/thisroot.sh
+```
+
+```
+# Install pip to install jupyter 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+pip install jupyter
+pip install metakernel
+root --notebook
+```
+
+Et voila! 
+You could try opening a Python3 kernel importing ROOT and it should work! 
+
+```
+import ROOT
+```
+
+
 
 # Other useful things 
 Installing homebrew, wget: 
