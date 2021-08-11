@@ -34,6 +34,10 @@ https://atom.io/packages/remote-atom
 So you can open atom from the command line interface
 https://stackoverflow.com/questions/22390709/how-can-i-open-the-atom-editor-from-the-command-line-in-os-x
 
+# Setting up Certificate in Firefox
+
+Short story for now: Just copy your pem or .p12 file from cmslpc or lxplus and then import
+
 # ROOT 
 
 To install ROOT ( I usually like the pyroot capabilities ).
