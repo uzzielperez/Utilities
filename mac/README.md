@@ -50,6 +50,8 @@ brew install root
 . /opt/homebrew/bin/thisroot.sh
 ```
 
+Note that running `brew install root` updates to the latest version nicely. :) Recently from 6.22 to 6.24. Necessary to run rooFit stuff smoothly.
+
 ```
 # Install pip to install jupyter 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
