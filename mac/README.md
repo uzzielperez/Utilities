@@ -21,13 +21,13 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 
 # Setting up VS Code 
 
-Install VS Code and install \href{https://code.visualstudio.com/docs/remote/ssh}{Remote-SSH}. I used password authentication instead of keygen. 
+Install VS Code and install \href{Remote-SSH}{https://code.visualstudio.com/docs/remote/ssh}. I used password authentication instead of keygen. 
 To get a password prompt when connecting `Remote-SSH: Connect to Host`, I had to make sure that the settings are set to: 
 
 ```
 "remote.SSH.showLoginTerminal": true,
 ```
-See more tips \href{https://code.visualstudio.com/docs/remote/troubleshooting}{here}.
+See more tips \href{here}{https://code.visualstudio.com/docs/remote/troubleshooting}.
 
 ## Setting up atom 
 Atom is deprecated.. :'( I loved it.
