@@ -19,15 +19,25 @@ http://guides.beanstalkapp.com/version-control/git-on-mac.html
 Instructions for adding ssh keys to your github account: 
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-# Setting up atom 
+# Setting up VS Code 
 
+Install VS Code and install \href{https://code.visualstudio.com/docs/remote/ssh}{Remote-SSH}. I used password authentication instead of keygen. 
+To get a password prompt when connecting `Remote-SSH: Connect to Host`, I had to make sure that the settings are set to: 
+
+```
+"remote.SSH.showLoginTerminal": true,
+```
+See more tips \href{https://code.visualstudio.com/docs/remote/troubleshooting}{here}.
+
+## Setting up atom 
+Atom is deprecated.. :'( I loved it.
 Download atom from here: https://atom.io
 
 Install platform ide terminal: https://atom.io/packages/platformio-ide-terminal
 
 In the settings you can change platform ide terminal from zsh to bash. (I haven't figured out yet how to get it to source ~/.bash_profile and ~/.bashrc) 
 
-## Setting up Remote Atom 
+### Setting up Remote Atom 
 One of my favorite things in the world! 
 https://atom.io/packages/remote-atom
 
