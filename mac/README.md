@@ -18,6 +18,17 @@ http://guides.beanstalkapp.com/version-control/git-on-mac.html
 
 Instructions for adding ssh keys to your github account: 
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+# Viewing remote files
+Don't like copy pasting so I use OSXFuss and sshfs which I download from [here](https://osxfuse.github.io/).
+```
+mkdir ~/Desktop/mount
+sshfs <username>@lxplus.cern.ch:/afs/cern.ch/user/c/<username> ~/Desktop/mount
+```
+To unmount:
+```
+diskutil umount force ~/Desktop/mount
+```
+
 
 # Setting up VS Code 
 
