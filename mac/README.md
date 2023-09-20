@@ -44,11 +44,11 @@ See more tips [here](https://code.visualstudio.com/docs/remote/troubleshooting).
 Atom is deprecated.. :'( I loved it.
 Download atom from here: https://atom.io
 
-Install platform ide terminal: https://atom.io/packages/platformio-ide-terminal
+Install platform ide terminal from this [link](https://atom.io/packages/platformio-ide-terminal)
 
 In the settings you can change platform ide terminal from zsh to bash. (I haven't figured out yet how to get it to source ~/.bash_profile and ~/.bashrc) 
 
-It's also pretty neat to have the "code" shell-command installed to open up any file from the terminal. Works remotely too. See setup instructions \href{here}{https://code.visualstudio.com/docs/setup/mac}.
+It's also pretty neat to have the "code" shell-command installed to open up any file from the terminal. Works remotely too. See setup instructions [here](https://code.visualstudio.com/docs/setup/mac).
 
 ### Setting up Remote Atom 
 One of my favorite things in the world! 
