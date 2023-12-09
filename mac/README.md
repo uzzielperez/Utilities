@@ -1,3 +1,8 @@
+# Github
+
+With a new laptop you'll have to generate a new ssh key and add it to your github account
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
 # cmslpc clusters 
 
 In case of lost passwords, it is pretty easy to call Fermilab service desk. They'll verify your identity and give you a temporary password. 
